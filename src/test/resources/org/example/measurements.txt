@@ -1,0 +1,2 @@
+Tokyo;9.6
+Hong Kong;23.1

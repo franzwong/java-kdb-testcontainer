@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <RandomAccessFile name="file" fileName="logs/app.log" immediateFlush="false" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n">
+            </PatternLayout>
+        </RandomAccessFile>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="file"/>
+        </Root>
+    </Loggers>
+</Configuration>
